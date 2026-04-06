@@ -143,16 +143,18 @@
         <a href="LICENSE.txt" style="color: #3498db; text-decoration: none;">GNU GPL v3</a>.
     </p>
 </footer>
-<div style="text-align: center; margin-top: 40px; padding: 20px; border-top: 2px solid #3498db; background-color: #fdfdfd;">
-    <h4 style="color: #2c3e50; margin-bottom: 10px; font-family: sans-serif;">Estadísticas de Aprendizaje</h4>
+<div style="text-align: center; margin-top: 40px;">
+    <h4 style="color: #2c3e50;">Estadísticas de Aprendizaje</h4>
     
-    <img src="https://profile-counter.glitch.me/Anatom-a-humana-rmp33/count.svg" 
-         alt="Contador de visitas" 
-         style="height: 35px; filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.1));">
+    <img id="contador-vistas" src="" alt="Contador de visitas" style="height: 35px;">
+
+    <script>
+        // Esto agrega un número aleatorio al final de la URL para saltarse el caché
+        const urlBase = "https://profile-counter.glitch.me/Anatom-a-humana-rmp33/count.svg";
+        document.getElementById('contador-vistas').src = urlBase + "?t=" + new Date().getTime();
+    </script>
     
-    <p style="color: #7f8c8d; font-size: 0.8rem; margin-top: 10px;">
-        Vistas totales (Se actualiza al recargar)
-    </p>
+    <p style="color: #7f8c8d; font-size: 0.8rem; margin-top: 10px;">Vistas totales</p>
 </div>
 </body>
 </html>
