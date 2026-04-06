@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glosario y Quiz - Anatomía Humana</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+        }
+        header {
+            background-color: #34495e;
+            color: #fff;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        nav {
+            background: #2c3e50;
+            padding: 0.7rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+        h2 {
+            color: #2980b9;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        /* Estilos Glosario */
+        .glossary-item {
+            margin-bottom: 15px;
+        }
+        .glossary-term {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        /* Estilos específicos para el Quiz */
+.quiz-container {
+    background: #fdfdfd;
+    border: 1px solid #ddd;
+    padding: 25px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.question-block {
+    margin-bottom: 25px;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 15px;
+}
+
+.question {
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #2c3e50;
+    display: block;
+}
+
+.options {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    line-height: 1.8;
+}
+
+.btn-check {
+    background: #27ae60;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn-check:hover {
+    background: #219150;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    padding: 15px;
+    display: none;
+    border-radius: 5px;
+    text-align: center;
+}
+.back-link {
+            display: inline-block;
+            margin-top: 2rem;
+            color: #00acc1;
+            text-decoration: none;
+            font-weight: bold;
+        }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Recursos de Aprendizaje</h1>
+    <p>Glosario técnico y evaluación de conocimientos</p>
+</header>
+
+<nav>
+    <a href="index.html">← Inicio</a>
+    <a href="#glosario">Glosario</a>
+    <a href="#quiz">Cuestionario</a>
+</nav>
+<div class="container">
+    <section id="Epónimos">
+        <h2>Epónimos en Anatomía</h2>
+        <div class="Eponyms-item">
+            Históricamente, muchas estructuras llevaban el nombre de quien las descubrió (ej. Trompas de Falopio o Islotes de Langerhans). Sin embargo, la <strong>Terminología Anatómica Internacional</strong> moderna busca sustituirlos por términos descriptivos (Trompas uterinas o Islotes pancreáticos) para que el lenguaje sea puramente científico y no dependa de nombres propios.
+        </div>
+    </section>
+    </div>
+    <div class="container">
+    <section id="Importancia de la variación Anatomíca">
+        <h2>La Importancia de la Variación Anatómica</h2>
+        <div class="variation-item">
+En la realidad, existe la <strong>variación anatómica:</strong> pequeñas diferencias en el trayecto de un nervio o la forma de un músculo que son normales y no patológicas. Esto es crucial en cirugía y diagnóstico.
+        </div>
+    </section>
+    </div>
+    <div class="container">
+    <section id="glosario">
+        <h2>Glosario de Términos</h2>
+        <div class="glossary-item">
+            <span class="glossary-term">Aponeurosis:</span> Membrana fibrosa blanca, resistente, que sirve para la inserción de los músculos.
+        </div>
+        <div class="glossary-item">
+            <span class="glossary-term">Homeostasis:</span> Estado de equilibrio dinámico del medio interno del cuerpo.
+        </div>
+        <div class="glossary-item">
+            <span class="glossary-term">Ipsilateral:</span> Que ocurre o está situado en el mismo lado del cuerpo.
+        </div>
+        <div class="glossary-item">
+            <span class="glossary-term">Mediastino:</span> Espacio medio de la caja torácica entre los dos pulmones.
+        </div>
+        <div class="glossary-item">
+            <span class="glossary-term">Sustancia Gris:</span> Tejido del SNC compuesto por cuerpos neuronales y dendritas.
+        </div>
+    </section>
+</div>
+<hrs>
+    <section id="quiz">
+    <h2>Ponte a prueba: Examen General</h2>
+    <p>Responde las siguientes preguntas para evaluar lo aprendido en todas las secciones.</p>
+    
+    <div class="quiz-container">
+        <div class="question-block">
+            <span class="question">1. ¿Qué plano divide al cuerpo en partes anterior y posterior?</span>
+            <div class="options">
+                <input type="radio" name="q1" value="a"> Sagital<br>
+                <input type="radio" name="q1" value="b"> Coronal<br>
+                <input type="radio" name="q1" value="c"> Transversal
+            </div>
+        </div>
+
+        <div class="question-block">
+            <span class="question">2. ¿Qué células se encargan de la reabsorción del tejido óseo?</span>
+            <div class="options">
+                <input type="radio" name="q2" value="a"> Osteoblastos<br>
+                <input type="radio" name="q2" value="b"> Osteocitos<br>
+                <input type="radio" name="q2" value="c"> Osteoclastos
+            </div>
+        </div>
+
+        <div class="question-block">
+            <span class="question">3. ¿Cuál es el órgano interno más voluminoso del cuerpo?</span>
+            <div class="options">
+                <input type="radio" name="q3" value="a"> Páncreas<br>
+                <input type="radio" name="q3" value="b"> Hígado<br>
+                <input type="radio" name="q3" value="c"> Bazo
+            </div>
+        </div>
+
+        <div class="question-block">
+            <span class="question">4. El sistema nervioso que activa la respuesta de "lucha o huida" es:</span>
+            <div class="options">
+                <input type="radio" name="q4" value="a"> Simpático<br>
+                <input type="radio" name="q4" value="b"> Parasimpático<br>
+                <input type="radio" name="q4" value="c"> Somático
+            </div>
+        </div>
+
+        <div class="question-block">
+            <span class="question">5. ¿Qué vasos cuentan con válvulas para impedir el reflujo sanguíneo?</span>
+            <div class="options">
+                <input type="radio" name="q5" value="a"> Arterias<br>
+                <input type="radio" name="q5" value="b"> Capilares<br>
+                <input type="radio" name="q5" value="c"> Venas
+            </div>
+        </div>
+
+        <div class="question-block">
+            <span class="question">6. Un grupo de células con la misma función forma un nivel:</span>
+            <div class="options">
+                <input type="radio" name="q6" value="a"> Orgánico<br>
+                <input type="radio" name="q6" value="b"> Tisular<br>
+                <input type="radio" name="q6" value="c"> Químico
+            </div>
+        </div>
+
+        <button class="btn-check" onclick="checkFullQuiz()">Verificar Respuestas</button>
+        <div id="result"></div>
+    </div>
+</section>
+</hrs>
+
+<a href="index.html" class="back-link">Volver al temario principal</a>
+<footer>
+    <p>&copy; 2026 Proyecto Educativo de Anatomía</p>
+</footer>
+<script>
+function checkFullQuiz() {
+    let score = 0;
+    const total = 6;
+    const answers = { q1: 'b', q2: 'c', q3: 'b', q4: 'a', q5: 'c', q6: 'b' };
+    const resultDiv = document.getElementById('result');
+
+    // Validación: que todas tengan una opción marcada
+    for (let i = 1; i <= total; i++) {
+        if (!document.querySelector(`input[name="q${i}"]:checked`)) {
+            alert("Por favor, responde la pregunta " + i + " antes de calificar.");
+            return;
+        }
+    }
+
+    // Cálculo
+    for (let i = 1; i <= total; i++) {
+        const userAns = document.querySelector(`input[name="q${i}"]:checked`).value;
+        if (userAns === answers[`q${i}`]) {
+            score++;
+        }
+    }
+
+    // Mostrar resultado con el estilo original
+    resultDiv.style.display = 'block';
+    if (score === total) {
+        resultDiv.style.backgroundColor = "#e8f5e9";
+        resultDiv.style.color = "#27ae60";
+        resultDiv.innerHTML = "¡Excelente! " + score + "/" + total + ". Dominas la materia.";
+    } else {
+        resultDiv.style.backgroundColor = "#fff3e0";
+        resultDiv.style.color = "#e67e22";
+        resultDiv.innerHTML = "Has acertado " + score + " de " + total + ". ¡Sigue estudiando!";
+    }
+}
+</script>
+
+</body>
+</html>

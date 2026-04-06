@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angiología - Anatomía Humana</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #fdfdfd;
+        }
+        header {
+            background-color: #a82323; /* Carmesí para el sistema circulatorio */
+            color: #fff;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        nav {
+            background: #2c3e50;
+            padding: 0.7rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #a82323;
+            border-bottom: 2px solid #f2d7d7;
+            padding-bottom: 0.3rem;
+        }
+        .vessels-grid {
+            display: flex;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .vessel-card {
+            flex: 1;
+            padding: 1rem;
+            border-radius: 8px;
+            color: white;
+        }
+        .artery { background-color: #c0392b; }
+        .vein { background-color: #2980b9; }
+        .capillary { background-color: #8e44ad; }
+        
+        .highlight-box {
+            background-color: #f8f9fa;
+            border-left: 5px solid #a82323;
+            padding: 1rem;
+            margin: 1.5rem 0;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 2rem;
+            color: #a82323;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        img {
+    max-width: 100%; /* La imagen nunca será más ancha que su contenedor */
+    height: auto;    /* Mantiene la proporción original */
+    display: block;
+    margin: 20px auto; /* La centra y le da espacio arriba y abajo */
+    border-radius: 5px; /* Bordes suaves */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra sutil */
+}
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Angiología Humana</h1>
+    <p>El sistema de transporte y distribución de la vida</p>
+</header>
+
+<nav>
+    <a href="index.html">← Volver al Inicio</a>
+    <a href="#corazon">El Corazón</a>
+    <a href="#vasos">Vasos Sanguíneos</a>
+    <a href="#circulacion">Circulación</a>
+</nav>
+
+<div class="container">
+    <p>La angiología es la disciplina anatómica que estudia los órganos del sistema circulatorio y del sistema linfático. Su función principal es asegurar que cada célula del cuerpo reciba oxígeno y nutrientes, eliminando a la vez los productos de desecho.</p>
+
+    <section id="corazon">
+        <h2>1. El Corazón: La Bomba Central</h2>
+        <p>Es un órgano muscular hueco del tamaño de un puño cerrado, situado en el mediastino medio. Actúa como una bomba doble que impulsa la sangre.<h3>El Sistema de Conducción Eléctrica</h3>
+El corazón no necesita una orden externa para latir; genera su propio impulso eléctrico gracias a células especializadas:
+<h3>Nodo Sinoauricular (Marcapasos natural):</h3> Inicia el latido en la aurícula derecha.
+<h3>Nodo Atrioventricular:</h3> Retrasa el impulso brevemente para permitir que los ventrículos se llenen de sangre.
+<h3>Fibras de Purkinje:</h3> Distribuyen la señal rápidamente por las paredes ventriculares para una contracción potente.</p>
+        <ul>
+            <li><strong>Aurículas (derecha e izquierda):</strong> Cavidades superiores que reciben la sangre.</li>
+            <li><strong>Ventrículos (derecho e izquierdo):</strong> Cavidades inferiores que expulsan la sangre con fuerza.</li>
+            <li><strong>Válvulas:</strong> Aseguran que el flujo sea unidireccional (tricúspide, mitral, pulmonar y aórtica).</li>
+        </ul>
+        <img src="corazón.jpg" alt="corazón">
+    </section>
+
+    <section id="vasos">
+        <h2>2. Tipos de Vasos Sanguíneos</h2>
+        <div class="vessels-grid">
+            <div class="vessel-card artery">
+                <h3>Arterias</h3>
+                <p>Llevan sangre desde el corazón a los tejidos. Tienen paredes gruesas y elásticas para soportar la presión.</p>
+            </div>
+            <div class="vessel-card vein">
+                <h3>Venas</h3>
+                <p>Devuelven la sangre al corazón. Tienen válvulas internas para evitar el retroceso de la sangre.</p>
+            </div>
+        </div>
+        <p><h3>Las Capas de los Vasos (Túnicas)</h3>
+Tanto arterias como venas poseen tres capas concéntricas, pero con diferencias estructurales importantes:
+<h3>Túnica Íntima:</h3> Capa interna de endotelio que permite un flujo suave.
+<h3>Túnica Media:</h3> Capa de músculo liso y fibras elásticas. Es mucho más gruesa en las arterias para controlar la presión arterial (vasoconstricción/vasodilatación).
+<h3>Túnica Adventicia:</h3> Capa externa de tejido conectivo que ancla el vaso a los tejidos circundantes.</p>
+        <p>Los <strong>Capilares</strong> son los vasos más pequeños donde ocurre el intercambio real de gases y nutrientes entre la sangre y las células.</p>
+        <img src="vasos sanguíneos.png" alt="vasos sanguíneos">
+    </section>
+
+    <section id="circulacion">
+        <h2>3. Los Dos Circuitos</h2>
+        <div class="highlight-box">
+            <p><strong>Circulación Menor (Pulmonar):</strong> Sangre desoxigenada va del corazón a los pulmones para cargarse de O2 y regresa al corazón.</p>
+            <p><strong>Circulación Mayor (Sistémica):</strong> Sangre oxigenada sale del corazón hacia todo el cuerpo y regresa con CO2.</p>
+            <p><h3>El Sistema Linfático (La "Angiología Blanca")</h3>
+A menudo olvidado, es parte esencial de la angiología:
+Linfa: Líquido transparente que drena el exceso de líquido de los tejidos.
+Ganglios Linfáticos: Actúan como filtros donde las células inmunitarias combaten patógenos.
+Conducto Torácico: El vaso linfático más grande que devuelve la linfa al sistema venoso.</p>
+<p><h3>La Sangre como Tejido Líquido</h3>
+Aunque es esplacnología y angiología a la vez, conviene mencionar que la sangre se compone de:
+<h4>Plasma:</h4> Parte líquida rica en proteínas y agua.
+<h4>Elementos formes:</h4> Eritrocitos (transporte de O2), Leucocitos (defensa) y Trombocitos o plaquetas (coagulación).</p>
+        </div>
+        <img src="cmayor y cmenor.jpg" alt="circulación mayor y circulación menor">
+    </section>
+
+    <a href="index.html" class="back-link">Regresar al temario principal</a>
+</div>
+
+<footer>
+    <p>&copy; 2026 Proyecto Educativo de Anatomía</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neuroanatomía - Anatomía Humana</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+        }
+        header {
+            background-color: #6c5ce7; /* Púrpura para representar el intelecto y el sistema nervioso */
+            color: #fff;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        nav {
+            background: #2d3436;
+            padding: 0.7rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        .container {
+            max-width: 950px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #6c5ce7;
+            border-left: 5px solid #a29bfe;
+            padding-left: 15px;
+            margin-top: 2rem;
+        }
+        .concept-box {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .card {
+            flex: 1;
+            min-width: 280px;
+            background: #f9f9ff;
+            border: 1px solid #e1e1e1;
+            padding: 1.5rem;
+            border-radius: 8px;
+        }
+        .highlight {
+            color: #d63031;
+            font-weight: bold;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 2.5rem;
+            color: #6c5ce7;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        img {
+    max-width: 100%; /* La imagen nunca será más ancha que su contenedor */
+    height: auto;    /* Mantiene la proporción original */
+    display: block;
+    margin: 20px auto; /* La centra y le da espacio arriba y abajo */
+    border-radius: 5px; /* Bordes suaves */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra sutil */
+}
+svg, img[src$=".svg"] {
+    max-width: 100%;
+    height: auto;
+    max-height: 400px; /* Evita que órganos pequeños ocupen toda la pantalla */
+    display: block;
+    margin: 0 auto;
+}
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Neuroanatomía</h1>
+    <p>El centro de procesamiento y control de la vida</p>
+</header>
+
+<nav>
+    <a href="index.html">← Volver al Inicio</a>
+    <a href="#snc">SNC (Central)</a>
+    <a href="#snp">SNP (Periférico)</a>
+    <a href="#neurona">La Neurona</a>
+</nav>
+
+<div class="container">
+    <p>La neuroanatomía estudia la organización y estructura del sistema nervioso. Este sistema es responsable de recibir estímulos, procesar información y generar respuestas coordinadas.</p>
+
+    <section id="snc">
+        <h2>1. Sistema Nervioso Central (SNC)</h2>
+        <p>Es la parte del sistema nervioso protegida por estructuras óseas (cráneo y columna vertebral). Se encarga de la integración de información.<h3>Las Meninges: El Escudo Protector</h3>
+El SNC no toca directamente el hueso. Está envuelto en tres capas de tejido conectivo llamadas meninges:
+<h3>Duramadre:</h3> La más externa y resistente.
+<h3>Aracnoides:</h3> Una capa intermedia con aspecto de tela de araña.
+<h3>Piamadre:</h3> La capa más fina y delicada que está en contacto directo con el tejido nervioso.
+Entre la aracnoides y la piamadre fluye el Líquido Cefalorraquídeo (LCR), que amortigua golpes y nutre al cerebro.</p>
+        
+        <div class="concept-box">
+            <div class="card">
+                <h3>Encéfalo</h3>
+                <p>Incluye el <strong>Cerebro</strong> (funciones superiores), el <strong>Cerebelo</strong> (equilibrio y coordinación) y el <strong>Tronco Encefálico</strong> (funciones vitales automáticas como respirar).</p>
+            </div>
+            <div class="card">
+                <h3>Médula Espinal</h3>
+                <p>El cordón nervioso que comunica el encéfalo con el resto del cuerpo y gestiona los arcos reflejos rápidos.</p>
+            </div>
+        </div>
+        <img src="snc.png" alt="snc">
+    </section>
+
+    <section id="snp">
+        <h2>2. Sistema Nervioso Periférico (SNP)</h2>
+        <p>Está compuesto por los nervios que salen del SNC hacia los órganos y extremidades. Se divide funcionalmente en:</p>
+        <ul>
+            <li><strong>Somático:</strong> Controla los movimientos voluntarios de los músculos esqueléticos.</li>
+            <li><strong>Autónomo:</strong> Controla funciones involuntarias (corazón, digestión). Se divide en <span class="highlight">Simpático</span> (alerta/lucha) y <span class="highlight">Parasimpático</span> (reposo/digestión).</li>
+        </ul>
+        <img src="snp.svg" alt="snp">
+    </section>
+
+    <section id="neurona">
+        <h2>3. La Unidad Funcional: La Neurona</h2>
+        <p>Célula especializada en la transmisión de impulsos electroquímicos.<h3>Sustancia Gris vs. Sustancia Blanca</h3>
+Si cortamos el cerebro o la médula, veremos dos colores distintos:
+<h3>Sustancia Gris:</h3> Formada principalmente por los cuerpos de las neuronas (donde se procesa la información). En el cerebro está por fuera; en la médula, por dentro.
+<h3>Sustancia Blanca:</h3> Formada por los axones cubiertos de mielina (las "vías de comunicación"). Su color blanco se debe a la grasa de la mielina. Sus partes principales son:</p>
+        <ul>
+            <li><strong>Soma:</strong> El cuerpo celular donde reside el núcleo.</li>
+            <li><strong>Dendritas:</strong> Prolongaciones cortas que reciben señales.</li>
+            <li><strong>Axón:</strong> Prolongación larga que envía la señal hacia otra célula, a menudo recubierta de <strong>mielina</strong> para aumentar la velocidad.</li>
+            <img src="neuronas.jpg" alt="neuronas">
+            <p><h3>Los Pares Craneales</h3>
+Existen 12 pares de nervios que nacen directamente del encéfalo y controlan funciones críticas como la visión (Óptico), el olfato (Olfatorio) y el movimiento del corazón y vísceras (Vago).</p>
+        </ul>
+    </section>
+
+    <a href="index.html" class="back-link">Regresar al temario principal</a>
+</div>
+
+<footer>
+    <p>&copy; 2026 Proyecto Educativo de Anatomía</p>
+</footer>
+
+</body>
+</html>

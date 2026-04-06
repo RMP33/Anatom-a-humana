@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anatomía Humana | Explorando el Cuerpo</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        nav {
+            background: #34495e;
+            padding: 0.5rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .hero {
+            padding: 2rem 0;
+            border-bottom: 2px solid #ecf0f1;
+        }
+        .topics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 2rem 0;
+        }
+        .card {
+            background: #fdfdfd;
+            border: 1px solid #ddd;
+            padding: 1.5rem;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: #3498db;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.9rem;
+            color: #7f8c8d;
+        }
+        img {
+    max-width: 100%; /* La imagen nunca será más ancha que su contenedor */
+    height: auto;    /* Mantiene la proporción original */
+    display: block;
+    margin: 20px auto; /* La centra y le da espacio arriba y abajo */
+    border-radius: 5px; /* Bordes suaves */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra sutil */
+}
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Introducción a la Anatomía Humana</h1>
+    <p>Descifrando la arquitectura de la vida</p>
+</header>
+
+<nav>
+    <a href="#definicion">Definición</a>
+    <a href="#secciones">Temario</a>
+    <a href="contacto.html">Contacto</a>
+</nav>
+
+<div class="container">
+    <section class="hero" id="definicion">
+        <h2>¿Qué es la Anatomía?</h2>
+        <img src="posición anatomica general.jpeg" alt="posición anatomica general.jpeg" class="img-fluid">
+        <p>La anatomía humana es la ciencia dedicada al estudio de las <strong>estructuras macroscópicas</strong> del cuerpo humano. A diferencia de la fisiología (que estudia cómo funcionan), la anatomía se centra en la forma, la ubicación y la relación entre los diversos órganos y tejidos que nos componen.
+        </p>
+    </section>
+
+<section id="secciones">
+        <h2>Contenido de este Sitio</h2>
+        <p>A continuación, exploraremos las diversas áreas que componen este estudio integral:</p>
+        
+        <div class="topics">
+            <div class="card"> 
+                <h3>1. Niveles de Organización</h3>
+                <p>Desde la unidad básica celular hasta la formación de sistemas complejos y el organismo completo.</p>
+  <nav> <a href="organizacion.html">organizacion</a> </nav>
+            </div>
+            <div class="card">
+                <h3>2. Osteología y Miología</h3>
+                <p>El soporte rígido del cuerpo (huesos) y los motores que permiten el movimiento (músculos).</p>
+                <nav> <a href="sistema-locomotor.html">sistema-locomotor</a> </nav>
+            </div>
+            <div class="card">
+                <h3>3. Esplacnología</h3>
+                <p>Estudio detallado de las vísceras y órganos contenidos en las cavidades abdominal, torácica y pélvica.</p>
+                <nav> <a href="esplacnologia.html">esplacnologia</a> </nav>
+            </div>
+            <div class="card">
+                <h3>4. Neuroanatomía</h3>
+                <p>El centro de control: el cerebro, la médula espinal y la vasta red de nervios periféricos.</p>
+                <nav> <a href="Neuroanatomía.html">Neuroanatomía</a> </nav>
+            </div>
+            <div class="card">
+                <h3>5. Angiología</h3>
+                <p>La red de transporte del cuerpo humano, incluyendo el corazón, arterias, venas y sistema linfático.</p>
+                <nav> <a href="angiologia.html">Angiología</a> </nav>
+            </div>
+            <div class="card">
+                <h3>6. Planimetría</h3>
+                <p>Términos de posición, ejes y planos anatómicos esenciales para la orientación médica.</p>
+                <nav> <a href="planimetria.html">Planimetría</a> </nav>
+            </div>
+        </div>
+    </section>
+</div>
+<footer style="text-align: center; padding: 20px; color: #7f8c8d; font-size: 0.8rem; border-top: 1px solid #ddd; margin-top: 40px;">
+    <p>&copy; 2026 <strong>Yorwin Salcedo</strong>. Algunos derechos reservados.</p>
+    <p>Este sitio web es software libre bajo los términos de la 
+        <a href="LICENSE.txt" style="color: #3498db; text-decoration: none;">GNU GPL v3</a>.
+    </p>
+</footer>
+
+</body>
+</html>

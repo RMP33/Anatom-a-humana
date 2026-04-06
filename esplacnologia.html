@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esplacnología - Anatomía Humana</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+        }
+        header {
+            background-color: #27ae60; /* Verde para representar funciones vitales y órganos */
+            color: #fff;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        nav {
+            background: #2c3e50;
+            padding: 0.7rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        h2 {
+            color: #27ae60;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 0.5rem;
+        }
+        .organ-system {
+            margin-bottom: 3rem;
+        }
+        .info-card {
+            background-color: #f9fdfa;
+            border: 1px border #d5e8d4;
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin: 1rem 0;
+        }
+        .badge {
+            background: #27ae60;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 2rem;
+            color: #27ae60;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        svg, img[src$=".svg"] {
+    max-width: 100%;
+    height: auto;
+    max-height: 400px; /* Evita que órganos pequeños ocupen toda la pantalla */
+    display: block;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%; /* La imagen nunca será más ancha que su contenedor */
+    height: auto;    /* Mantiene la proporción original */
+    display: block;
+    margin: 20px auto; /* La centra y le da espacio arriba y abajo */
+    border-radius: 5px; /* Bordes suaves */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra sutil */
+}
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Esplacnología Humana</h1>
+    <p>El estudio de las vísceras y los sistemas internos</p>
+</header>
+
+<nav>
+    <a href="index.html">← Volver al Inicio</a>
+    <a href="#digestivo">Digestivo</a>
+    <a href="#respiratorio">Respiratorio</a>
+    <a href="#urogenital">Urogenital</a>
+</nav>
+
+<div class="container">
+    <p>La esplacnología analiza los órganos que mantienen la vida vegetativa del individuo. Estos órganos se agrupan principalmente en las cavidades torácica, abdominal y pélvica.<h3>La Estructura de las Paredes (Histología General)</h3>
+Casi todos los órganos tubulares (como el esófago o el intestino) comparten una estructura de cuatro capas:
+Mucosa: La capa interna que está en contacto con el contenido (alimento, aire).
+Submucosa: Contiene vasos sanguíneos y nervios.
+Muscular: Generalmente dos capas de músculo liso que permiten el movimiento (peristaltismo).
+Serosa o Adventicia: La capa externa de protección.<h3>El Peritoneo</h3>
+Es una membrana serosa que tapiza la cavidad abdominal y rodea la mayoría de los órganos. Es crucial porque mantiene los órganos en su lugar y permite que se deslicen unos sobre otros sin fricción durante la digestión o la respiración.
+Órganos Intraperitoneales: Como el estómago o el bazo.
+Órganos Retroperitoneales: Como los riñones, que se encuentran "detrás" de esta membrana.</p>
+
+    <section id="digestivo" class="organ-system">
+        <h2>1. Aparato Digestivo</h2>
+        <p>Encargado de la transformación de los alimentos para que puedan ser absorbidos y utilizados por las células.</p>
+        
+        <div class="info-card">
+            <span class="badge">Componentes clave</span>
+            <ul>
+                <li><strong>Tubo Digestivo:</strong> Boca, faringe, esófago, estómago, intestinos (delgado y grueso) y ano.</li>
+                <li><strong>Glándulas Anexas:</strong> Hígado (el órgano interno más grande), páncreas y glándulas salivales.</li>
+            </ul>
+            <img src="sistema digestivo.svg" alt="sistema digestivo" width="400">
+        </div>
+    </section>
+
+    <section id="respiratorio" class="organ-system">
+        <h2>2. Aparato Respiratorio</h2>
+        <p>Facilita el intercambio gaseoso (hematosis) entre el organismo y el medio ambiente.</p>
+        
+        <div class="info-card">
+            <span class="badge">Proceso Vital</span>
+            <p>El aire viaja por las fosas nasales, laringe, tráquea y bronquios hasta llegar a los <strong>alvéolos pulmonares</strong>, donde el oxígeno pasa a la sangre y el dióxido de carbono es expulsado.</p>
+        </div>
+        <img src="aparato respiratorio.svg.png" alt="aparato respiratorio" width="400">
+    </section>
+
+    <section id="urogenital" class="organ-system">
+        <h2>3. Aparato Urogenital</h2>
+        <p>Combina las funciones de excreción de desechos metabólicos y la reproducción.</p>
+        
+        <div class="info-card">
+            <h3>Sistema Urinario</h3>
+            <p>Compuesto por los riñones (filtración), uréteres, vejiga y uretra. Es vital para el equilibrio de líquidos y electrolitos.</p>
+            <hr>
+            <h3>Sistema Reproductor</h3>
+            <p>Diferenciado por sexo, encargado de la producción de gametos y hormonas sexuales para la preservación de la especie.</p>
+            <img src="aparato urogenital.jpg" alt="aparato urogenital" width="400">
+            <p><h2>Glándulas Endocrinas vs. Exocrinas</h2>
+Dentro de la esplacnología también estudiamos cómo los órganos segregan sustancias:
+Exocrinas: Vierten su contenido a través de conductos (ej: glándulas salivales, páncreas exocrino para la digestión).
+Endocrinas: Vierten hormonas directamente al torrente sanguíneo (ej: glándulas suprarrenales, tiroides).</p>
+        </div>
+    </section>
+
+    <a href="index.html" class="back-link">Regresar al temario principal</a>
+</div>
+
+<footer>
+    <p>&copy; 2026 Proyecto Educativo de Anatomía</p>
+</footer>
+
+</body>
+</html>
